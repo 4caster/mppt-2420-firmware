@@ -15,18 +15,27 @@
 
 #include "main.h"
 
+void delay(uint32_t time_delay)
+{	
+    volatile uint32_t i;
+    for(i = 0; i < time_delay; i++);
+}
+
 /********************************************************************************
  * Main program body
  ********************************************************************************/
 
 int main (void) {
 
-/*
-    Led::init();
-    Led::on(Led::Color::YELLOW);
-    Led::on(Led::Color::GREEN);
-*/
-    while(1) {}
+    Gpio::init<15>(GPIOA, Gpio::mode::output, Gpio::type::PP);
+    Gpio::set<15>(GPIOA);
+
+//    Led::init();
+
+    while(1) {
+//        Led::toggle(Led::Color::YELLOW);
+//        delay(200000);
+    }
 
 }
 

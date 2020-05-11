@@ -1,11 +1,11 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        led.cpp                                                          *
+ * file        Led.cpp                                                          *
  * author      Ila Galkin                                                       *
  * date        11.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       class LED                                                        *
+ * brief       class Led                                                        *
  *                                                                              *
  ********************************************************************************/
 
@@ -13,7 +13,7 @@
  * Include 
  ********************************************************************************/
 
-#include "led.h"
+#include "Led.h"
 
 /********************************************************************************
  * Class control LED indicators
@@ -37,4 +37,9 @@ void Led::on (Color led) {
 void Led::off (Color led) {
     if (led == Color::GREEN) { GPIOB->BSRR |= GPIO_BSRR_BR_5; }
     if (led == Color::YELLOW) { GPIOA->BSRR |= GPIO_BSRR_BR_15; }
+}
+
+void Led::toggle (Color led) {
+    if (led == Color::GREEN) { GPIOB->ODR ^= GPIO_ODR_5; }
+    if (led == Color::YELLOW) { GPIOA->ODR ^= GPIO_ODR_15; }    
 }

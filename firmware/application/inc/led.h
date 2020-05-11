@@ -1,11 +1,11 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        led.h                                                            *
+ * file        Led.h                                                            *
  * author      Ila Galkin                                                       *
  * date        11.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       class LED                                                        *
+ * brief       class Led                                                        *
  *                                                                              *
  ********************************************************************************/
 
@@ -25,14 +25,14 @@ class Led {
 
     public:
         enum class Color {
-            GREEN,
-            YELLOW
+            GREEN, YELLOW
         };
 
     public:
         static void init ();
         static void on (Color led);
         static void off (Color led);
+        static void toggle (Color led);
 
     private:
 
