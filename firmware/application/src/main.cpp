@@ -21,18 +21,11 @@
 
 int main (void) {
 
-    RCC->AHBENR  |= RCC_AHBENR_GPIOBEN;     // Clock enable for GPIO port B
-    RCC->AHBENR  |= RCC_AHBENR_GPIOAEN;     
-
-	GPIOB->MODER &= ~GPIO_MODER_MODER5;     // Output push-pull
-	GPIOB->MODER |= GPIO_MODER_MODER5_0;	
-
-    GPIOA->MODER &= ~GPIO_MODER_MODER15;
-	GPIOA->MODER |= GPIO_MODER_MODER15_0;	
-
-    GPIOB->BSRR |= GPIO_BSRR_BS_5;
-    GPIOA->BSRR |= GPIO_BSRR_BS_15;
-
+/*
+    Led::init();
+    Led::on(Led::Color::YELLOW);
+    Led::on(Led::Color::GREEN);
+*/
     while(1) {}
 
 }

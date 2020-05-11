@@ -5,7 +5,7 @@
 			"name": "Cortex Debug",
 			"cwd": "${workspaceRoot}",
 			"executable": "./build/mppt.elf",
-			"svdFile": "./jlink/STM32F3x4.svd",
+			"svdFile": "./system/jlink/STM32F3x4.svd",
 			"request": "launch",
 			"type": "cortex-debug",
 			"servertype": "jlink",

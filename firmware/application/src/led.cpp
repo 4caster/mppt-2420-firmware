@@ -1,11 +1,11 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.h                                                           *
+ * file        led.cpp                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        11.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       class LED                                                        *
  *                                                                              *
  ********************************************************************************/
 
@@ -13,24 +13,28 @@
  * Include 
  ********************************************************************************/
 
-#include "stm32f3xx.h"
-
 #include "led.h"
 
 /********************************************************************************
- * Define
+ * Class control LED indicators
  ********************************************************************************/
 
-/********************************************************************************
- * External variable
- ********************************************************************************/
+void Led::init () {
+    RCC->AHBENR  |= RCC_AHBENR_GPIOAEN | RCC_AHBENR_GPIOBEN;
 
-/********************************************************************************
- * User typedef
- ********************************************************************************/
+    GPIOB->MODER &= ~GPIO_MODER_MODER5;
+	GPIOB->MODER |= GPIO_MODER_MODER5_0;	                    // Output push-pull PB5
 
-/********************************************************************************
- * Local function declaration
- ********************************************************************************/
+    GPIOA->MODER &= ~GPIO_MODER_MODER15;
+	GPIOA->MODER |= GPIO_MODER_MODER15_0;	                    // Output push-pull PA15         
+}
 
-/********************************* END OF FILE **********************************/
+void Led::on (Color led) {
+    if (led == Color::GREEN) { GPIOB->BSRR |= GPIO_BSRR_BS_5; }
+    if (led == Color::YELLOW) { GPIOA->BSRR |= GPIO_BSRR_BS_15; }
+}
+
+void Led::off (Color led) {
+    if (led == Color::GREEN) { GPIOB->BSRR |= GPIO_BSRR_BR_5; }
+    if (led == Color::YELLOW) { GPIOA->BSRR |= GPIO_BSRR_BR_15; }
+}
