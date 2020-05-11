@@ -36,7 +36,8 @@ C_SOURCES =  \
 library/cmsis/src/system_stm32f3xx.c
 
 CXX_SOURCES = \
-application/src/main.cpp
+application/src/main.cpp \
+application/src/Led.cpp
 
 # ASM sources
 ASM_SOURCES =  \
@@ -65,8 +66,8 @@ CFLAGS = -c $(MCU) $(DEFS) $(OPTIMIZE) $(addprefix -I,$(C_INCLUDES)) -std=c11 -W
 CXXFLAGS = -c $(MCU) $(DEFS) $(OPTIMIZE) $(addprefix -I,$(C_INCLUDES)) -std=c++17 -Wall -fdata-sections -ffunction-sections
 
 LDSCRIPT = $(LD_DIR)STM32F334C8Tx_FLASH.ld
-LIBS = -lc -lm -lnosys 
-LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+LIBS = -lc -lm -lnosys  
+LDFLAGS = $(MCU) -specs=nosys.specs -T$(LDSCRIPT) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 LDFLAGS += -mcpu=cortex-m4 -mthumb
 
 ifeq ($(DEBUG), 1)

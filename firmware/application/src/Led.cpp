@@ -1,11 +1,11 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.cpp                                                         *
+ * file        Led.cpp                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        11.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       class Led                                                        *
  *                                                                              *
  ********************************************************************************/
 
@@ -13,29 +13,28 @@
  * Include 
  ********************************************************************************/
 
-#include "main.h"
-
-void delay(uint32_t time_delay)
-{	
-    volatile uint32_t i;
-    for(i = 0; i < time_delay; i++);
-}
+#include "Led.h"
 
 /********************************************************************************
- * Main program body
+ * Class control LED indicators
  ********************************************************************************/
 
-int main (void) {
-
-    Led::Init();
-
-    while(1) {
-        Led::Toggle(Led::color::YELLOW);
-        delay(50000);
-    }
-
+void Led::Init () {
+    Gpio::Init<5>(GPIOB, Gpio::mode::output, Gpio::type::PP);
+    Gpio::Init<15>(GPIOA, Gpio::mode::output, Gpio::type::PP);       
 }
 
-/********************************* END OF FILE **********************************/
+void Led::On (color led) {
+    if (led == color::GREEN) { Gpio::Set<5>(GPIOB); }
+    if (led == color::YELLOW) { Gpio::Set<15>(GPIOA); }
+}
 
+void Led::Off (color led) {
+    if (led == color::GREEN) { Gpio::Reset<5>(GPIOB); }
+    if (led == color::YELLOW) { Gpio::Reset<15>(GPIOA); }
+}
 
+void Led::Toggle (color led) {
+    if (led == color::GREEN) { Gpio::Toggle<5>(GPIOB); }
+    if (led == color::YELLOW) { Gpio::Toggle<15>(GPIOA); }    
+}
