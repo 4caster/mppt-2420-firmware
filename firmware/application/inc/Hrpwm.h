@@ -1,21 +1,42 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.h                                                           *
+ * file        Hrpwm.h                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        13.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       High resolution PWM                                              *
  *                                                                              *
  ********************************************************************************/
+
+#pragma once
 
 /********************************************************************************
  * Include 
  ********************************************************************************/
 
 #include "stm32f3xx.h"
+#include "Gpio.h"
 
-#include "Led.h"
-#include "Hrpwm.h"
+/********************************************************************************
+ * Class HRPWM
+ ********************************************************************************/
+
+class Hrpwm {
+
+    public:
+        enum class Channel:int {
+            channelA, channelB, channelC, channelD
+        };
+
+    public:
+        static void InitHrpwm (Channel channel, uint16_t period);
+        static void SetDuty (Channel channel, uint16_t duty);
+
+    private:
+        static void InitGpio (Channel channel);
+        static void SelectEventForExternalGeneration (uint16_t compare);
+
+};
 
 /********************************* END OF FILE **********************************/

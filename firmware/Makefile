@@ -37,7 +37,8 @@ library/cmsis/src/system_stm32f3xx.c
 
 CXX_SOURCES = \
 application/src/main.cpp \
-application/src/Led.cpp
+application/src/Led.cpp \
+application/src/Hrpwm.cpp
 
 # ASM sources
 ASM_SOURCES =  \
