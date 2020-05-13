@@ -24,33 +24,29 @@
 class Gpio {
 
     public:
-        enum class mode:int {
+        enum class Mode:int {
 	        analog = 0b11, input = 0b00, output = 0b01, outputAF = 0b10
         };
 
-        enum class type:int {
-	        PP = 0, OD = 1
+        enum class Type:int {
+	        PP, OD
         };
         
-        enum class speed:int {
+        enum class Speed:int {
 	        low = 0, medium = 0b01, high = 0b10, veryHigh = 0b11
         };
 
-        enum class pupd:int {
+        enum class Pupd:int {
 	        noPull = 0, pullUp = 0b01, pullDown = 0b10
         };
 
-        enum class af:int {
-	        af0 = 0, af1, af2, af3, af4, af5, af6, af7, af8, af9, af10, af11, af12, af13, af14, af15
-        };
-        
-        enum class pins:int {
-	        pin0 = 0, pin1, pin2, pin3, pin4, pin5, pin6, pin7, pin8, pin9, pin10, pin11, pin12, pin13, pin14, pin15
+        enum class AF:int {
+	        af0, af1, af2, af3, af4, af5, af6, af7, af8, af9, af10, af11, af12, af13, af14, af15
         };
 
     public:
         template<uint8_t ... pins>
-        static inline void Init (GPIO_TypeDef * port = GPIOA, mode m = mode::input, type t = type::PP, speed s = speed::low, pupd p = pupd::noPull, af a = af::af0) {
+        static inline void Init (GPIO_TypeDef * port = GPIOA, Mode m = Mode::input, Type t = Type::PP, Speed s = Speed::low, Pupd p = Pupd::noPull, AF a = AF::af0) {
 
 	        if (port == GPIOA)
 		        RCC->AHBENR  |= RCC_AHBENR_GPIOAEN;
@@ -129,3 +125,5 @@ class Gpio {
     private:
 
 };
+
+/********************************* END OF FILE **********************************/

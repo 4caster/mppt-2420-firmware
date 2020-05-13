@@ -25,15 +25,15 @@
 class Led {
 
     public:
-        enum class color:int {
+        enum class Color:int {
             GREEN, YELLOW
         };
 
     public:
         static void Init ();
-        static void On (color led);
-        static void Off (color led);
-        static void Toggle (color led);
+        static void On (Color led);
+        static void Off (Color led);
+        static void Toggle (Color led);
 
     private:
 
