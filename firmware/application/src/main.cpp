@@ -35,7 +35,7 @@ int main (void) {
 
     while(1) {
         Led::Toggle(Led::Color::YELLOW);
-        delay(500000);
+        delay(1000000);
     }
 
 }

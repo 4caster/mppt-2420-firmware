@@ -1,0 +1,696 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___env_recursive_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data.__dso_handle
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000000000000       0x74 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x0000000000000000       0x14 build/mpptsystem/startup/startup_stm32f334x8.o
+ .data          0x0000000000000000        0x0 build/mpptsystem/startup/startup_stm32f334x8.o
+ .bss           0x0000000000000000        0x0 build/mpptsystem/startup/startup_stm32f334x8.o
+ .text          0x0000000000000000        0x0 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .data          0x0000000000000000        0x0 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .bss           0x0000000000000000        0x0 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0x8c build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .data.SystemCoreClock
+                0x0000000000000000        0x4 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .rodata.AHBPrescTable
+                0x0000000000000000       0x10 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .rodata.APBPrescTable
+                0x0000000000000000        0x8 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .group         0x0000000000000000       0x14 build/mpptapplication/src/main.o
+ .group         0x0000000000000000       0x14 build/mpptapplication/src/main.o
+ .text          0x0000000000000000        0x0 build/mpptapplication/src/main.o
+ .data          0x0000000000000000        0x0 build/mpptapplication/src/main.o
+ .bss           0x0000000000000000        0x0 build/mpptapplication/src/main.o
+ .ARM.extab.text._Z5delaym
+                0x0000000000000000        0x0 build/mpptapplication/src/main.o
+ .ARM.extab.text.main
+                0x0000000000000000        0x0 build/mpptapplication/src/main.o
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x20 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+ .text.memset   0x0000000000000000       0xa0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x38 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000000000       0xcc c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .text._exit    0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .debug_frame   0x0000000000000000       0x20 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x0000000000000000        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x32 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000003000 xrw
+CCMRAM           0x0000000010000000 0x0000000000001000 rw
+FLASH            0x0000000008000000 0x0000000000010000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD build/mpptsystem/startup/startup_stm32f334x8.o
+LOAD build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+LOAD build/mpptapplication/src/main.o
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++.a
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+START GROUP
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+END GROUP
+START GROUP
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000020003000                _estack = 0x20003000
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x188
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x188 build/mpptsystem/startup/startup_stm32f334x8.o
+                0x0000000008000000                g_pfnVectors
+                0x0000000008000188                . = ALIGN (0x4)
+
+.text           0x0000000008000188      0x4d0
+                0x0000000008000188                . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.__do_global_dtors_aux
+                0x0000000008000188       0x24 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.frame_dummy
+                0x00000000080001ac       0x1c c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.Reset_Handler
+                0x00000000080001c8       0x50 build/mpptsystem/startup/startup_stm32f334x8.o
+                0x00000000080001c8                Reset_Handler
+ .text.Default_Handler
+                0x0000000008000218        0x2 build/mpptsystem/startup/startup_stm32f334x8.o
+                0x0000000008000218                RTC_Alarm_IRQHandler
+                0x0000000008000218                HRTIM1_Master_IRQHandler
+                0x0000000008000218                DebugMon_Handler
+                0x0000000008000218                TIM1_CC_IRQHandler
+                0x0000000008000218                HardFault_Handler
+                0x0000000008000218                HRTIM1_FLT_IRQHandler
+                0x0000000008000218                SysTick_Handler
+                0x0000000008000218                PVD_IRQHandler
+                0x0000000008000218                HRTIM1_TIMD_IRQHandler
+                0x0000000008000218                TAMP_STAMP_IRQHandler
+                0x0000000008000218                PendSV_Handler
+                0x0000000008000218                NMI_Handler
+                0x0000000008000218                EXTI3_IRQHandler
+                0x0000000008000218                EXTI0_IRQHandler
+                0x0000000008000218                FPU_IRQHandler
+                0x0000000008000218                CAN_TX_IRQHandler
+                0x0000000008000218                TIM1_UP_TIM16_IRQHandler
+                0x0000000008000218                UsageFault_Handler
+                0x0000000008000218                ADC1_2_IRQHandler
+                0x0000000008000218                HRTIM1_TIME_IRQHandler
+                0x0000000008000218                SPI1_IRQHandler
+                0x0000000008000218                CAN_SCE_IRQHandler
+                0x0000000008000218                HRTIM1_TIMC_IRQHandler
+                0x0000000008000218                DMA1_Channel4_IRQHandler
+                0x0000000008000218                USART3_IRQHandler
+                0x0000000008000218                DMA1_Channel7_IRQHandler
+                0x0000000008000218                TIM7_DAC2_IRQHandler
+                0x0000000008000218                CAN_RX1_IRQHandler
+                0x0000000008000218                I2C1_EV_IRQHandler
+                0x0000000008000218                DMA1_Channel6_IRQHandler
+                0x0000000008000218                TIM3_IRQHandler
+                0x0000000008000218                RCC_IRQHandler
+                0x0000000008000218                DMA1_Channel1_IRQHandler
+                0x0000000008000218                Default_Handler
+                0x0000000008000218                EXTI15_10_IRQHandler
+                0x0000000008000218                COMP2_IRQHandler
+                0x0000000008000218                HRTIM1_TIMA_IRQHandler
+                0x0000000008000218                TIM6_DAC1_IRQHandler
+                0x0000000008000218                EXTI9_5_IRQHandler
+                0x0000000008000218                RTC_WKUP_IRQHandler
+                0x0000000008000218                MemManage_Handler
+                0x0000000008000218                SVC_Handler
+                0x0000000008000218                DMA1_Channel5_IRQHandler
+                0x0000000008000218                EXTI4_IRQHandler
+                0x0000000008000218                HRTIM1_TIMB_IRQHandler
+                0x0000000008000218                TIM1_TRG_COM_TIM17_IRQHandler
+                0x0000000008000218                DMA1_Channel3_IRQHandler
+                0x0000000008000218                WWDG_IRQHandler
+                0x0000000008000218                TIM2_IRQHandler
+                0x0000000008000218                EXTI1_IRQHandler
+                0x0000000008000218                COMP4_6_IRQHandler
+                0x0000000008000218                USART2_IRQHandler
+                0x0000000008000218                DMA1_Channel2_IRQHandler
+                0x0000000008000218                FLASH_IRQHandler
+                0x0000000008000218                BusFault_Handler
+                0x0000000008000218                USART1_IRQHandler
+                0x0000000008000218                CAN_RX0_IRQHandler
+                0x0000000008000218                I2C1_ER_IRQHandler
+                0x0000000008000218                EXTI2_TSC_IRQHandler
+                0x0000000008000218                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x000000000800021a        0x2 
+ .text.SystemInit
+                0x000000000800021c       0x68 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+                0x000000000800021c                SystemInit
+ .text._ZN3Led4InitEv
+                0x0000000008000284       0xb4 build/mpptapplication/src/main.o
+                0x0000000008000284                Led::Init()
+ .text._ZN5Clock4InitEv
+                0x0000000008000338       0x6c build/mpptapplication/src/main.o
+                0x0000000008000338                Clock::Init()
+ .text._Z5delaym
+                0x00000000080003a4       0x18 build/mpptapplication/src/main.o
+                0x00000000080003a4                delay(unsigned long)
+ .text.main     0x00000000080003bc      0x15c build/mpptapplication/src/main.o
+                0x00000000080003bc                main
+ .text.__libc_init_array
+                0x0000000008000518       0x48 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+                0x0000000008000518                __libc_init_array
+ .text.startup.register_fini
+                0x0000000008000560       0x14 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x0000000008000574        0xc c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+                0x0000000008000574                atexit
+ .text.__libc_fini_array
+                0x0000000008000580       0x2c c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+                0x0000000008000580                __libc_fini_array
+ .text.__retarget_lock_acquire_recursive
+                0x00000000080005ac        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                0x00000000080005ac                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00000000080005b0        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                0x00000000080005b0                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x00000000080005b4       0x8c c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+                0x00000000080005b4                __register_exitproc
+ *(.glue_7)
+ .glue_7        0x0000000008000640        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008000640        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008000640        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.init)
+ .init          0x0000000008000640        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008000640                _init
+ .init          0x0000000008000644        0x8 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x000000000800064c        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800064c                _fini
+ .fini          0x0000000008000650        0x8 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008000658                . = ALIGN (0x4)
+                0x0000000008000658                _etext = .
+
+.vfp11_veneer   0x0000000008000658        0x0
+ .vfp11_veneer  0x0000000008000658        0x0 linker stubs
+
+.v4_bx          0x0000000008000658        0x0
+ .v4_bx         0x0000000008000658        0x0 linker stubs
+
+.iplt           0x0000000008000658        0x0
+ .iplt          0x0000000008000658        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.rodata         0x0000000008000658        0x4
+                0x0000000008000658                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x0000000008000658        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+                0x0000000008000658                _global_impure_ptr
+                0x000000000800065c                . = ALIGN (0x4)
+
+.ARM.extab      0x000000000800065c        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text._ZN3Led4InitEv
+                0x000000000800065c        0x0 build/mpptapplication/src/main.o
+ .ARM.extab.text._ZN5Clock4InitEv
+                0x000000000800065c        0x0 build/mpptapplication/src/main.o
+
+.ARM            0x000000000800065c        0x8
+                0x000000000800065c                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx.text._ZN3Led4InitEv
+                0x000000000800065c        0x8 build/mpptapplication/src/main.o
+ .ARM.exidx.text._ZN5Clock4InitEv
+                0x0000000008000664        0x0 build/mpptapplication/src/main.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z5delaym
+                0x0000000008000664        0x0 build/mpptapplication/src/main.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.main
+                0x0000000008000664        0x0 build/mpptapplication/src/main.o
+                                          0x8 (size before relaxing)
+                0x0000000008000664                __exidx_end = .
+
+.rel.dyn        0x0000000008000664        0x0
+ .rel.iplt      0x0000000008000664        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.preinit_array  0x0000000008000664        0x0
+                0x0000000008000664                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x0000000008000664                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000008000664        0x8
+                0x0000000008000664                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x0000000008000664        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x0000000008000668        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000000800066c                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000000800066c        0x4
+                0x000000000800066c                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000000000800066c        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008000670                PROVIDE (__fini_array_end = .)
+                0x0000000008000670                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000      0x42c load address 0x0000000008000670
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x0000000020000000      0x428 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x0000000020000428        0x4 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                0x0000000020000428                __atexit_recursive_mutex
+                0x000000002000042c                . = ALIGN (0x4)
+                0x000000002000042c                _edata = .
+                0x0000000008000a9c                _siccmram = LOADADDR (.ccmram)
+
+.igot.plt       0x000000002000042c        0x0 load address 0x0000000008000a9c
+ .igot.plt      0x000000002000042c        0x0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008000a9c
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _sccmram = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _eccmram = .
+                0x0000000010000000                . = ALIGN (0x4)
+
+.bss            0x000000002000042c       0x40
+                0x000000002000042c                _sbss = .
+                0x000000002000042c                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.completed.10274
+                0x000000002000042c        0x1 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x000000002000042d        0x3 
+ .bss.object.10279
+                0x0000000020000430       0x18 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(COMMON)
+ COMMON         0x0000000020000448       0x21 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                0x0000000020000448                __lock___atexit_recursive_mutex
+                0x000000002000044c                __lock___arc4random_mutex
+                0x0000000020000450                __lock___env_recursive_mutex
+                0x0000000020000454                __lock___sinit_recursive_mutex
+                0x0000000020000458                __lock___malloc_recursive_mutex
+                0x000000002000045c                __lock___at_quick_exit_mutex
+                0x0000000020000460                __lock___dd_hash_mutex
+                0x0000000020000464                __lock___tz_mutex
+                0x0000000020000468                __lock___sfp_recursive_mutex
+                0x000000002000046c                . = ALIGN (0x4)
+ *fill*         0x0000000020000469        0x3 
+                0x000000002000046c                _ebss = .
+                0x000000002000046c                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x000000002000046c      0x604
+                0x0000000020000470                . = ALIGN (0x8)
+ *fill*         0x000000002000046c        0x4 
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x0000000020000670                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000470      0x200 
+                0x0000000020000a70                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000670      0x400 
+                0x0000000020000a70                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1e c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x21 build/mpptsystem/startup/startup_stm32f334x8.o
+ .ARM.attributes
+                0x0000000000000073       0x34 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .ARM.attributes
+                0x00000000000000a7       0x34 build/mpptapplication/src/main.o
+ .ARM.attributes
+                0x00000000000000db       0x32 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000010d       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000141       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000175       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000000000001a9       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000000001dd       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000211       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000245       0x1e c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+OUTPUT(build/mppt.elf elf32-littlearm)
+
+.debug_line     0x0000000000000000      0x775
+ .debug_line    0x0000000000000000       0x83 build/mpptsystem/startup/startup_stm32f334x8.o
+ .debug_line    0x0000000000000083      0x238 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_line    0x00000000000002bb      0x4ba build/mpptapplication/src/main.o
+
+.debug_info     0x0000000000000000     0x197c
+ .debug_info    0x0000000000000000       0x22 build/mpptsystem/startup/startup_stm32f334x8.o
+ .debug_info    0x0000000000000022      0x4a2 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_info    0x00000000000004c4     0x14b8 build/mpptapplication/src/main.o
+
+.debug_abbrev   0x0000000000000000      0x493
+ .debug_abbrev  0x0000000000000000       0x12 build/mpptsystem/startup/startup_stm32f334x8.o
+ .debug_abbrev  0x0000000000000012      0x12e build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_abbrev  0x0000000000000140      0x353 build/mpptapplication/src/main.o
+
+.debug_aranges  0x0000000000000000       0x88
+ .debug_aranges
+                0x0000000000000000       0x28 build/mpptsystem/startup/startup_stm32f334x8.o
+ .debug_aranges
+                0x0000000000000028       0x28 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_aranges
+                0x0000000000000050       0x38 build/mpptapplication/src/main.o
+
+.debug_str      0x0000000000000000      0xba2
+ .debug_str     0x0000000000000000       0x7a build/mpptsystem/startup/startup_stm32f334x8.o
+ .debug_str     0x000000000000007a      0x282 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+                                        0x322 (size before relaxing)
+ .debug_str     0x00000000000002fc      0x8a6 build/mpptapplication/src/main.o
+                                        0xb04 (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0xb0
+ .debug_ranges  0x0000000000000000       0x20 build/mpptsystem/startup/startup_stm32f334x8.o
+ .debug_ranges  0x0000000000000020       0x18 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_ranges  0x0000000000000038       0x78 build/mpptapplication/src/main.o
+
+.debug_loc      0x0000000000000000      0x521
+ .debug_loc     0x0000000000000000      0x123 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_loc     0x0000000000000123      0x3fe build/mpptapplication/src/main.o
+
+.comment        0x0000000000000000       0x66
+ .comment       0x0000000000000000       0x66 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+                                         0x67 (size before relaxing)
+ .comment       0x0000000000000066       0x67 build/mpptapplication/src/main.o
+
+.debug_frame    0x0000000000000000      0x25c
+ .debug_frame   0x0000000000000000       0x30 build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+ .debug_frame   0x0000000000000030       0x60 build/mpptapplication/src/main.o
+ .debug_frame   0x0000000000000090       0x2c c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+ .debug_frame   0x00000000000000bc       0x68 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000124       0x20 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000144       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000178       0xb0 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000228       0x34 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+AHBPrescTable                                     build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+APBPrescTable                                     build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+BusFault_Handler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+CAN_RX0_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+CAN_RX1_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+CAN_SCE_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+CAN_TX_IRQHandler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+COMP2_IRQHandler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+COMP4_6_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+Clock::Init()                                     build/mpptapplication/src/main.o
+DMA1_Channel1_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DMA1_Channel2_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DMA1_Channel3_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DMA1_Channel4_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DMA1_Channel5_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DMA1_Channel6_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DMA1_Channel7_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+DebugMon_Handler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+Default_Handler                                   build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI0_IRQHandler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI15_10_IRQHandler                              build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI1_IRQHandler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI2_TSC_IRQHandler                              build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI3_IRQHandler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI4_IRQHandler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+EXTI9_5_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+FLASH_IRQHandler                                  build/mpptsystem/startup/startup_stm32f334x8.o
+FPU_IRQHandler                                    build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_FLT_IRQHandler                             build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_Master_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_TIMA_IRQHandler                            build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_TIMB_IRQHandler                            build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_TIMC_IRQHandler                            build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_TIMD_IRQHandler                            build/mpptsystem/startup/startup_stm32f334x8.o
+HRTIM1_TIME_IRQHandler                            build/mpptsystem/startup/startup_stm32f334x8.o
+HardFault_Handler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+I2C1_ER_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+I2C1_EV_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+Led::Init()                                       build/mpptapplication/src/main.o
+MemManage_Handler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+NMI_Handler                                       build/mpptsystem/startup/startup_stm32f334x8.o
+PVD_IRQHandler                                    build/mpptsystem/startup/startup_stm32f334x8.o
+PendSV_Handler                                    build/mpptsystem/startup/startup_stm32f334x8.o
+RCC_IRQHandler                                    build/mpptsystem/startup/startup_stm32f334x8.o
+RTC_Alarm_IRQHandler                              build/mpptsystem/startup/startup_stm32f334x8.o
+RTC_WKUP_IRQHandler                               build/mpptsystem/startup/startup_stm32f334x8.o
+Reset_Handler                                     build/mpptsystem/startup/startup_stm32f334x8.o
+SPI1_IRQHandler                                   build/mpptsystem/startup/startup_stm32f334x8.o
+SVC_Handler                                       build/mpptsystem/startup/startup_stm32f334x8.o
+SysTick_Handler                                   build/mpptsystem/startup/startup_stm32f334x8.o
+SystemCoreClock                                   build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+SystemCoreClockUpdate                             build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+SystemInit                                        build/mpptlibrary/cmsis/src/system_stm32f3xx.o
+                                                  build/mpptsystem/startup/startup_stm32f334x8.o
+TAMP_STAMP_IRQHandler                             build/mpptsystem/startup/startup_stm32f334x8.o
+TIM1_BRK_TIM15_IRQHandler                         build/mpptsystem/startup/startup_stm32f334x8.o
+TIM1_CC_IRQHandler                                build/mpptsystem/startup/startup_stm32f334x8.o
+TIM1_TRG_COM_TIM17_IRQHandler                     build/mpptsystem/startup/startup_stm32f334x8.o
+TIM1_UP_TIM16_IRQHandler                          build/mpptsystem/startup/startup_stm32f334x8.o
+TIM2_IRQHandler                                   build/mpptsystem/startup/startup_stm32f334x8.o
+TIM3_IRQHandler                                   build/mpptsystem/startup/startup_stm32f334x8.o
+TIM6_DAC1_IRQHandler                              build/mpptsystem/startup/startup_stm32f334x8.o
+TIM7_DAC2_IRQHandler                              build/mpptsystem/startup/startup_stm32f334x8.o
+USART1_IRQHandler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+USART2_IRQHandler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+USART3_IRQHandler                                 build/mpptsystem/startup/startup_stm32f334x8.o
+UsageFault_Handler                                build/mpptsystem/startup/startup_stm32f334x8.o
+WWDG_IRQHandler                                   build/mpptsystem/startup/startup_stm32f334x8.o
+__atexit_recursive_mutex                          c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+__bss_end__                                       c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__bss_start__                                     c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__call_exitprocs                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+__deregister_frame_info                           c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+__dso_handle                                      c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+__fini_array_end                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+__fini_array_start                                c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+__init_array_end                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+__init_array_start                                c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+__libc_fini                                       c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+__libc_fini_array                                 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__libc_init_array                                 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+                                                  build/mpptsystem/startup/startup_stm32f334x8.o
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__lock___arc4random_mutex                         c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex                      c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___atexit_recursive_mutex                   c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+__lock___dd_hash_mutex                            c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___env_recursive_mutex                      c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex                   c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex                      c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex                    c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__lock___tz_mutex                                 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__preinit_array_end                               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+__preinit_array_start                             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+__register_exitproc                               c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+__register_frame_info                             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+__retarget_lock_acquire                           c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_acquire_recursive                 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+__retarget_lock_close                             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_close_recursive                   c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_init                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_init_recursive                    c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_release                           c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_release_recursive                 c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+__retarget_lock_try_acquire                       c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__retarget_lock_try_acquire_recursive             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-lock.o)
+__stack                                           c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_ebss                                             build/mpptsystem/startup/startup_stm32f334x8.o
+_edata                                            build/mpptsystem/startup/startup_stm32f334x8.o
+_estack                                           build/mpptsystem/startup/startup_stm32f334x8.o
+_exit                                             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+_fini                                             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-fini.o)
+_global_impure_ptr                                c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+_impure_ptr                                       c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-impure.o)
+_init                                             c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-init.o)
+_mainCRTStartup                                   c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_sbss                                             build/mpptsystem/startup/startup_stm32f334x8.o
+_sdata                                            build/mpptsystem/startup/startup_stm32f334x8.o
+_sidata                                           build/mpptsystem/startup/startup_stm32f334x8.o
+_start                                            c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+atexit                                            c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-__call_atexit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+delay(unsigned long)                              build/mpptapplication/src/main.o
+exit                                              c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-exit.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+g_pfnVectors                                      build/mpptsystem/startup/startup_stm32f334x8.o
+hardware_init_hook                                c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+main                                              build/mpptapplication/src/main.o
+                                                  build/mpptsystem/startup/startup_stm32f334x8.o
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+memset                                            c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(lib_a-memset.o)
+                                                  c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+software_init_hook                                c:/software/embeddedgcc/arm_gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
