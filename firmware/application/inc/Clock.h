@@ -1,45 +1,36 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.cpp                                                         *
+ * file        Clock.h                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        15.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       System clock system                                              *
  *                                                                              *
  ********************************************************************************/
+
+#pragma once
 
 /********************************************************************************
  * Include 
  ********************************************************************************/
 
-#include "main.h"
-
-void delay(uint32_t time_delay)
-{	
-    volatile uint32_t i;
-    for(i = 0; i < time_delay; i++);
-}
+#include "stm32f3xx.h"
+#include "Gpio.h"
 
 /********************************************************************************
- * Main program body
+ * Class HRPWM
  ********************************************************************************/
 
-int main (void) {
+class Clock {
 
-    Clock::Init();
-    Led::Init();
+    public:
+        enum class Status {
+            disable, enable
+        };
 
-    Hrpwm::InitHrpwm (Hrpwm::Channel::channelA, 45000);
-    Hrpwm::SetDuty (Hrpwm::Channel::channelA, 18000);
+    public:
+        static void Init();
+        static void EnableMCO (Status status);
 
-    while(1) {
-        Led::Toggle(Led::Color::YELLOW);
-        delay(500000);
-    }
-
-}
-
-/********************************* END OF FILE **********************************/
-
-
+};

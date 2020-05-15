@@ -45,6 +45,7 @@ void Hrpwm::InitGpio (Channel channel) {
 }
 
 void Hrpwm::SelectEventForExternalGeneration (uint16_t compare) {
+    
     HRTIM1->sTimerxRegs[1].CMP2xR = compare / 10;       // Samples in 10% of period PWM
     HRTIM1->sCommonRegs.CR1 |= HRTIM_CR1_ADC2USRC_1;    // ADC trigger 2 update: Timer B 
     HRTIM1->sCommonRegs.ADC2R |= HRTIM_ADC2R_AD2TBC2;   // ADC trigger 2 event: Timer B compare 2 

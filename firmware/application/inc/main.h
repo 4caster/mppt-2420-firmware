@@ -17,5 +17,6 @@
 
 #include "Led.h"
 #include "Hrpwm.h"
+#include "Clock.h"
 
 /********************************* END OF FILE **********************************/
