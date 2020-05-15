@@ -103,23 +103,23 @@ class Gpio {
 
         template<uint32_t ... pins>
         static inline void Set (GPIO_TypeDef* port) {
-	        uint32_t t = 0;
-	        ((t |= 1<<pins), ...);
-	        port->BSRR = t;
+	        uint32_t temp = 0;
+	        ((temp |= 1<<pins), ...);
+	        port->BSRR = temp;
         }
 
         template<uint32_t ... pins>
         static inline void Toggle (GPIO_TypeDef* port) {
-	        uint32_t t = 0;
-	        ((t |= 1<<pins), ...);
-	        port->ODR ^= t;
+	        uint32_t temp = 0;
+	        ((temp |= 1<<pins), ...);
+	        port->ODR ^= temp;
         }
 
         template<uint32_t ... pins>
         static inline void Reset (GPIO_TypeDef* port) {
-	        uint32_t t = 0;
-	        ((t |= 1<<(pins+16)), ...);
-	        port->BSRR = t;
+	        uint32_t temp = 0;
+	        ((temp |= 1<<(pins+16)), ...);
+	        port->BSRR = temp;
         }
 
     private:
