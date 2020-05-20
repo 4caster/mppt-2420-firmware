@@ -26,7 +26,7 @@ class Led {
 
     public:
         enum class Color:int {
-            GREEN, YELLOW
+            green, yellow
         };
 
     public:
@@ -36,18 +36,18 @@ class Led {
         };
 
         static void On (Color led) {
-            if (led == Color::GREEN) { Gpio::Set<5>(GPIOB); }
-            if (led == Color::YELLOW) { Gpio::Set<15>(GPIOA); }
+            if (led == Color::green) { Gpio::Set<5>(GPIOB); }
+            if (led == Color::yellow) { Gpio::Set<15>(GPIOA); }
         };
 
         static void Off (Color led) {
-            if (led == Color::GREEN) { Gpio::Reset<5>(GPIOB); }
-            if (led == Color::YELLOW) { Gpio::Reset<15>(GPIOA); }
+            if (led == Color::green) { Gpio::Reset<5>(GPIOB); }
+            if (led == Color::yellow) { Gpio::Reset<15>(GPIOA); }
         };
 
         static void Toggle (Color led) {
-            if (led == Color::GREEN) { Gpio::Toggle<5>(GPIOB); }
-            if (led == Color::YELLOW) { Gpio::Toggle<15>(GPIOA); }  
+            if (led == Color::green) { Gpio::Toggle<5>(GPIOB); }
+            if (led == Color::yellow) { Gpio::Toggle<15>(GPIOA); }  
         };
 
     private:
