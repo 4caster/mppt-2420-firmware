@@ -15,12 +15,6 @@
 
 #include "main.h"
 
-void delay(uint32_t time_delay)
-{	
-    volatile uint32_t i;
-    for(i = 0; i < time_delay; i++);
-}
-
 /********************************************************************************
  * Main program body
  ********************************************************************************/
@@ -30,16 +24,28 @@ int main (void) {
     Clock::Init();
     Led::Init();
 
-    Hrpwm::InitHrpwm (Hrpwm::Channel::channelA, 45000);
-    Hrpwm::SetDuty (Hrpwm::Channel::channelA, 18000);
+    Hrpwm::InitHrpwm (45000);
+    Hrpwm::SetDuty (18000);
 
-    while(1) {
-        Led::Toggle(Led::Color::YELLOW);
-        delay(1000000);
-    }
+    Adc::SetOutputDivider(Adc::Divider::div12V);
+    Adc::Init();
+
+    Led::On(Led::Color::yellow);
+
+    while(1) {}
 
 }
 
 /********************************* END OF FILE **********************************/
+/*
+void ADC1_2_IRQHandler (void) {
 
+	ADC1->ISR |= ADC_ISR_JEOS;
 
+}
+*/
+void TIM6_DAC1_IRQHandler (void) {
+
+	TIM6->SR &= ~TIM_SR_UIF;
+    Led::Toggle(Led::Color::yellow);
+}

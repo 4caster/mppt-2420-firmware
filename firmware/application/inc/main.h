@@ -15,8 +15,11 @@
 
 #include "stm32f3xx.h"
 
+#include "Interrupt.h"
+
 #include "Led.h"
 #include "Hrpwm.h"
 #include "Clock.h"
+#include "Adc.h"
 
 /********************************* END OF FILE **********************************/
