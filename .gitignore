@@ -1,3 +1,6 @@
-#Исключение файлов настроек дебага
+# Исключение файлов настроек дебага
 firmware/.vscode/.cortex-debug.peripherals.state.json
 firmware/.vscode/.cortex-debug.registers.state.json
+
+# Исключение для файлов сборки
+firmware/build/
