@@ -16,10 +16,6 @@
 #include "stm32f3xx.h"
 
 #include "interrupt.h"
-
-#include "Led.h"
-#include "Hrpwm.h"
-#include "Clock.h"
-#include "Adc.h"
+#include "Periphery.h"
 
 /********************************* END OF FILE **********************************/

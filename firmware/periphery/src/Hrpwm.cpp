@@ -19,7 +19,7 @@
  * Class HRPWM
  ********************************************************************************/
 
-void Hrpwm::Init (uint16_t period) {
+void Hrpwm::Init (void) {
 
     Hrpwm::InitGpio();
 
@@ -29,7 +29,7 @@ void Hrpwm::Init (uint16_t period) {
     HRTIM1->sCommonRegs.DLLCR |= HRTIM_DLLCR_CAL | HRTIM_DLLCR_CALEN;                                   // Start timer's calibration 
     while ((HRTIM1->sCommonRegs.ISR & HRTIM_ISR_DLLRDY) == RESET);                                      // Waiting for the end fo calibration 
 
-    HRTIM1->sTimerxRegs[0].PERxR = period;                                                   // Set period for timer 
+    HRTIM1->sTimerxRegs[0].PERxR = Hrpwm::periodHrpwm;                                                   // Set period for timer 
     HRTIM1->sTimerxRegs[0].CMP1xR = 0;                                                       // Set starting duty
 
     HRTIM1->sTimerxRegs[0].OUTxR |= HRTIM_OUTR_DTEN;                                         // Enable dead-time
@@ -44,7 +44,7 @@ void Hrpwm::Init (uint16_t period) {
 
     HRTIM1->sCommonRegs.OENR |= HRTIM_OENR_TA1OEN | HRTIM_OENR_TA2OEN;                                  // Enable output PWM channel A
 
-    HRTIM1->sMasterRegs.MPER = period;                                                                  // Period for master timer
+    HRTIM1->sMasterRegs.MPER = Hrpwm::periodHrpwm;                                                                  // Period for master timer
     HRTIM1->sMasterRegs.MCR |= HRTIM_MCR_MCEN | HRTIM_MCR_TACEN;                                        // Enable counter for Master and timer A          
 };
 

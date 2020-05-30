@@ -28,13 +28,15 @@
  ********************************************************************************/
 
 class Hrpwm {
-
     public:
-        static void Init (uint16_t period);
+        static void Init (void);
         static void SetDuty (uint16_t duty);
 
     private:
         static void InitGpio (void);
+
+    private:
+        static const uint16_t periodHrpwm = 45000;     // Fsw = 100 kHz
 };
 
 /********************************* END OF FILE **********************************/
