@@ -55,7 +55,7 @@ class Adc {
             Adc::InitTimerEvent();
             Adc::StartCallibrationAdc();
 
-            ADC1->JSQR |= 0x10308167;               // Lenght = 4, Trigger = event 9, Type trigger = rising edge, Channel = IN1, IN2, IN3 and IN4
+            ADC1->JSQR |= 0x1030817B;               // Lenght = 4, Trigger = event 14, Type trigger = rising edge, Channel = IN1, IN2, IN3 and IN4
 
             ADC1->IER |= ADC_IER_JEOSIE;            // Interrupt enable
             NVIC_EnableIRQ(ADC1_2_IRQn);            // Enable interrupt ADC1 and ADC2
@@ -88,14 +88,10 @@ class Adc {
 
         static void InitTimerEvent (void) {
             RCC->APB1ENR |= RCC_APB1ENR_TIM6EN;    
-
 	        TIM6->PSC = 36000-1;					
-	        TIM6->ARR = 1000;			            
-
-	        TIM6->DIER |= TIM_DIER_UIE;			// Enable interrupt
-	        TIM6->CR1  |= TIM_CR1_CEN;			// Enable counter
-
-	        NVIC_EnableIRQ(TIM6_DAC1_IRQn);		
+	        TIM6->ARR = 1000;	
+            TIM6->CR2 |= TIM_CR2_MMS_1;     // Enable generation TRGO for ADC		            
+	        TIM6->CR1  |= TIM_CR1_CEN;				
         }
 };
 
