@@ -30,28 +30,10 @@ class Led {
         };
 
     public:
-        static void Init () {
-            Gpio::Init<5>(GPIOB, Gpio::Mode::output, Gpio::Type::PP);
-            Gpio::Init<15>(GPIOA, Gpio::Mode::output, Gpio::Type::PP); 
-        };
-
-        static void On (Color led) {
-            if (led == Color::green) { Gpio::Set<5>(GPIOB); }
-            if (led == Color::yellow) { Gpio::Set<15>(GPIOA); }
-        };
-
-        static void Off (Color led) {
-            if (led == Color::green) { Gpio::Reset<5>(GPIOB); }
-            if (led == Color::yellow) { Gpio::Reset<15>(GPIOA); }
-        };
-
-        static void Toggle (Color led) {
-            if (led == Color::green) { Gpio::Toggle<5>(GPIOB); }
-            if (led == Color::yellow) { Gpio::Toggle<15>(GPIOA); }  
-        };
-
-    private:
-
+        static void Init (void);
+        static void On (Color led);
+        static void Off (Color led);
+        static void Toggle (Color led);
 };
 
 /********************************* END OF FILE **********************************/

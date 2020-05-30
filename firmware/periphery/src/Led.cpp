@@ -1,11 +1,11 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.cpp                                                         *
+ * file        Led.cpp                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        11.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       class Led                                                        *
  *                                                                              *
  ********************************************************************************/
 
@@ -13,40 +13,28 @@
  * Include 
  ********************************************************************************/
 
-#include "main.h"
+#include "Led.h"
 
 /********************************************************************************
- * Main program body
+ * Class Led
  ********************************************************************************/
 
-uint16_t resultVoltageInput = 0;
-uint16_t resultCurrentInput = 0;
-uint16_t resultCurrentOutput = 0;
-uint16_t resultVoltageOutput = 0;
+void Led::Init (void) {
+    Gpio::Init<5>(GPIOB, Gpio::Mode::output, Gpio::Type::PP);
+    Gpio::Init<15>(GPIOA, Gpio::Mode::output, Gpio::Type::PP); 
+        };
 
-int main (void) {
+void Led::On (Color led) {
+    if (led == Color::green) { Gpio::Set<5>(GPIOB); }
+    if (led == Color::yellow) { Gpio::Set<15>(GPIOA); }
+};
 
-    Clock::Init();
-    Led::Init();
+void Led::Off (Color led) {
+    if (led == Color::green) { Gpio::Reset<5>(GPIOB); }
+    if (led == Color::yellow) { Gpio::Reset<15>(GPIOA); }
+};
 
-    Hrpwm::Init (45000);
-    Hrpwm::SetDuty (18000);
-
-    Adc::SetOutputDivider(Adc::Divider::div12V);
-    Adc::Init();
-
-    Led::On(Led::Color::yellow);
-
-    while(1) {}
-
-}
-
-/********************************* END OF FILE **********************************/
-
-void ADC1_2_IRQHandler (void) {
-
-	ADC1->ISR |= ADC_ISR_JEOS;
-
-    resultVoltageInput = ADC1->JDR1;
-    Led::Toggle(Led::Color::yellow);
-}
+void Led::Toggle (Color led) {
+    if (led == Color::green) { Gpio::Toggle<5>(GPIOB); }
+    if (led == Color::yellow) { Gpio::Toggle<15>(GPIOA); }  
+};

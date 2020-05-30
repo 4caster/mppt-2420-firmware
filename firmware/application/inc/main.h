@@ -15,7 +15,7 @@
 
 #include "stm32f3xx.h"
 
-#include "Interrupt.h"
+#include "interrupt.h"
 
 #include "Led.h"
 #include "Hrpwm.h"

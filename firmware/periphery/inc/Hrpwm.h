@@ -1,52 +1,40 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.cpp                                                         *
+ * file        Hrpwm.h                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        13.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       High resolution PWM                                              *
  *                                                                              *
  ********************************************************************************/
+
+#pragma once
 
 /********************************************************************************
  * Include 
  ********************************************************************************/
 
-#include "main.h"
+#include "stm32f3xx.h"
+#include "Gpio.h"
 
 /********************************************************************************
- * Main program body
+ * Class HRPWM
+ * 
+ * Dead time - 104 ns
+ * Complementary output
+ * Channel A
+ * 
  ********************************************************************************/
 
-uint16_t resultVoltageInput = 0;
-uint16_t resultCurrentInput = 0;
-uint16_t resultCurrentOutput = 0;
-uint16_t resultVoltageOutput = 0;
+class Hrpwm {
 
-int main (void) {
+    public:
+        static void Init (uint16_t period);
+        static void SetDuty (uint16_t duty);
 
-    Clock::Init();
-    Led::Init();
-
-    Hrpwm::Init (45000);
-    Hrpwm::SetDuty (18000);
-
-    Adc::SetOutputDivider(Adc::Divider::div12V);
-    Adc::Init();
-
-    Led::On(Led::Color::yellow);
-
-    while(1) {}
-
-}
+    private:
+        static void InitGpio (void);
+};
 
 /********************************* END OF FILE **********************************/
-
-void ADC1_2_IRQHandler (void) {
-
-	ADC1->ISR |= ADC_ISR_JEOS;
-
-    resultVoltageInput = ADC1->JDR1;
-    Led::Toggle(Led::Color::yellow);
-}

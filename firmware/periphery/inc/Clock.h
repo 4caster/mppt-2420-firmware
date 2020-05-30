@@ -1,52 +1,42 @@
 /********************************************************************************
  * project     Solar charge controller with MPPT algorithm                      *
  *                                                                              *
- * file        main.cpp                                                         *
+ * file        Clock.h                                                          *
  * author      Ila Galkin                                                       *
- * date        07.05.2020                                                       *
+ * date        15.05.2020                                                       *
  * copyright   The MIT License (MIT)                                            *
- * brief       Main program body                                                *
+ * brief       System clock system                                              *
  *                                                                              *
  ********************************************************************************/
+
+#pragma once
 
 /********************************************************************************
  * Include 
  ********************************************************************************/
 
-#include "main.h"
+#include "stm32f3xx.h"
+#include "Gpio.h"
 
 /********************************************************************************
- * Main program body
+ * Class Clock
+ *
+ * Initialization for the clock's system
+ * Source - external crystall
+ * Frequency external crystal   - 8 000 000 Hz
+ * Frequency for system clock   - 72 000 000 Hz
+ * Divider for ADC clock system - 10
+ * 
  ********************************************************************************/
 
-uint16_t resultVoltageInput = 0;
-uint16_t resultCurrentInput = 0;
-uint16_t resultCurrentOutput = 0;
-uint16_t resultVoltageOutput = 0;
+class Clock {
 
-int main (void) {
+    public:
+        enum class Status {
+            disable, enable
+        };
 
-    Clock::Init();
-    Led::Init();
-
-    Hrpwm::Init (45000);
-    Hrpwm::SetDuty (18000);
-
-    Adc::SetOutputDivider(Adc::Divider::div12V);
-    Adc::Init();
-
-    Led::On(Led::Color::yellow);
-
-    while(1) {}
-
-}
-
-/********************************* END OF FILE **********************************/
-
-void ADC1_2_IRQHandler (void) {
-
-	ADC1->ISR |= ADC_ISR_JEOS;
-
-    resultVoltageInput = ADC1->JDR1;
-    Led::Toggle(Led::Color::yellow);
-}
+    public:
+        static void Init (void);
+        static void EnableMCO (Status status);
+};

@@ -36,7 +36,11 @@ C_SOURCES =  \
 library/cmsis/src/system_stm32f3xx.c
 
 CXX_SOURCES = \
-application/src/main.cpp
+application/src/main.cpp \
+periphery/src/Adc.cpp \
+periphery/src/Clock.cpp \
+periphery/src/Hrpwm.cpp \
+periphery/src/Led.cpp
 
 # ASM sources
 ASM_SOURCES =  \
@@ -51,7 +55,7 @@ C_DEFS =  \
 C_INCLUDES =  \
 library/cmsis/inc \
 application/inc \
-periphery
+periphery/inc
  
 #######################################
 # Flags
