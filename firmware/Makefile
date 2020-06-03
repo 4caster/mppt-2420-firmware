@@ -55,7 +55,8 @@ C_DEFS =  \
 C_INCLUDES =  \
 library/cmsis/inc \
 application/inc \
-periphery/inc
+periphery/inc \
+library/
  
 #######################################
 # Flags
